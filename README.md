@@ -27,6 +27,7 @@ Task 7. **Retrieve All Books in a Specific Category**:
 10. **List Employees with Their Branch Manager's Name and their branch details**:
 Task 11. **Create a Table of Books with Rental Price Above a Certain Threshold**:
 Task 12: **Retrieve the List of Books Not Yet Returned**
+### Advanced SQL Operations
 **Task 13: Identify Members with Overdue Books**  
 Write a query to identify members who have overdue books (assume a 30-day return period). Display the member's_id, member's name, book title, issue date, and days overdue.
 **Task 14: Update Book Status on Return**  
@@ -42,3 +43,11 @@ Write a query to identify members who have issued books more than twice with the
 **Task 19: Stored Procedure**
 **Task 20: Create Table As Select (CTAS)**
 Objective: Create a CTAS (Create Table As Select) query to identify overdue books and calculate fines.
+Description: Write a CTAS query to create a new table that lists each member and the books they have issued but not returned within 30 days. The table should include:
+    The number of overdue books.
+    The total fines, with each day's fine calculated at $0.50.
+    The number of books issued by each member.
+    The resulting table should show:
+    Member ID
+    Number of overdue books
+    Total fines
